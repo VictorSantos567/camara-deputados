@@ -1,8 +1,10 @@
-# camara-deputados
-Analise de dados abertos da camara de deputados
+# Analise de dados abertos da camara de deputados
 
-Link informações:
-https://dadosabertos.camara.leg.br/swagger/api.html#api <br>
-Por padrão, todos os serviços de listagens retornam 15 itens, e o limite por requisição é de 100 itens
+Este respositorio tem como objetivo juntos conhecimentos de back-end e front-end. Para isto:
 
-Primeira objetivo: Associar numero de candidados aos partidos.
+- Consumir a API's para ter acesso aos dados aberto da Camara dos Deputados atualizados diariamente.
+- Tratar os dados.
+- Apresentar os dados via navegador localhost.
+
+Atualmente é apresentado no navegador a seguinte informação:
+![first image](first_dataframe_flask.jpg)
