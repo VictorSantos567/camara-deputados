@@ -14,7 +14,9 @@ def show_tables():
     df = control.transform_partys_dict_to_dataframe()
     html = df.to_html(classes='data')
     title = df.columns.values
-    return render_template('partidos.html', tables=[html], titles=[title])
+    date = control.current_date()
+    return render_template('partidos.html', tables=[html], titles=[title], date = date)
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

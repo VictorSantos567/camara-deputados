@@ -9,3 +9,5 @@ def get_all_partys_current():
     url = HOST+"/api/v2/partidos?dataInicio="+today
     response = requests.get(url).json()
     return response
+
+
